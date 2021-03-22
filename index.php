@@ -1,9 +1,9 @@
 <?php
 
-echo "hello World !";
+echo hello();
 
 function hello() {
     $hello = "hello";
     $world = "world";
-    return "hello world !";
+    return $hello . $world . " !";
 }
